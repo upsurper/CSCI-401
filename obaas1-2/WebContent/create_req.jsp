@@ -76,10 +76,11 @@ var sds = document.getElementById("form");
  <ul>
  <li><a href="create_req.jsp">NEW ACCOUNT</a></li>
  <li><a href="balance_req.jsp">BALANCE</a></li>
- <li><a href="cheque_req.jsp"><SR>SERVICE REQUEST</SR></a></li>
+ <li><a href="cheque_req.jsp">SERVICE REQUEST</a></li>
  <li><a href="paybills_req.jsp">PAY BILLS</a></li>
  <li><a href="transfer_req.jsp">TRANSFER</a></li>
  <li><a href="close_req.jsp">CLOSE A/C</a></li>
+ <li><a href="close_req.jsp">A/C MOD</a><li>
  </ul>
 </div>
 <table style="width:897px; background:#FFFFFF; margin:0 auto;">

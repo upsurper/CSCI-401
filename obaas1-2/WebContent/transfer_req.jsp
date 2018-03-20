@@ -84,6 +84,7 @@ var sds = document.getElementById("form");
  <li><a href="paybills_req.jsp">PAY BILLS</a></li>
  <li><a href="transfer_req.jsp">TRANSFER</a></li>
  <li><a href="close_req.jsp">CLOSE A/C</a></li>
+ <li><a href="close_req.jsp">A/C MOD</a><li>
  </ul>
 </div> 
 <table style="width:800px; background:#FFFFFF; margin:0 auto;">
