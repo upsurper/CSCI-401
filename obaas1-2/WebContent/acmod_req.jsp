@@ -39,8 +39,37 @@ var sds = document.getElementById("form");
  <div id="services"><ul>
 
 
-
  </ul>
+
+
+<td width="1200" valign="top">
+ <div id="welcome" style="border-right:#666666 1px dotted;"><h1>Account Modification Form, enter your
+  username and password to modify your phone and address information</h1><br>
+ <table align="center" bgcolor="white">
+ <tr>
+
+ </tr>
+ <tr>
+
+
+ <form name=F1 onSubmit="return check(this)" action="acmod_res.jsp" >
+ <table cellspacing="5" cellpadding="3">
+ <tr><td>USER NAME:</td><td> <input type="text" name="username"/></td></tr>
+ <tr><td>PASSWORD:</td><td> <input type="password" name="password"/></td></tr>
+ <tr><td>ADDRESS:</td><td> <input type="text" name="address"/></td></tr>
+  <tr><td>PHONE NUMBER:</td><td> <input type="text" name="phone"/></td></tr>
+ <tr><td></td><td><input type="submit" value="Submit"/>
+
+ <INPUT TYPE=RESET VALUE="CLEAR"></td></tr>
+ </table>
+ </form>
+ </td>
+ </tr>
+ </table>
+ </div>
+ </td>
+
+
 
  </div>
  </td>
