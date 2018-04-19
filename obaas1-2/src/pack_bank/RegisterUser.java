@@ -7,7 +7,7 @@ import pack_bank.GetCon;
 public class RegisterUser {
 	static int status = 0;
 
-	// This class creates records for new account and new cheque book request
+
 	public static int register(String username, String password, String repassword, double amount, String adderess,
 			double phone, String category) {
 		Connection con = GetCon.getCon();

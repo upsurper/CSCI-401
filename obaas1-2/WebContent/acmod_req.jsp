@@ -61,6 +61,9 @@
 										<form name="F1" onSubmit="return check(this)"
 											action="acmod_res.jsp">
 											<table cellspacing="5" cellpadding="3">
+											<tr><td>ACCOUNT NO</td>
+											<td><input type="text" name="accountno" /></td>
+											</tr>
 												<tr>
 													<td>USER NAME:</td>
 													<td><input type="text" name="username" /></td>
